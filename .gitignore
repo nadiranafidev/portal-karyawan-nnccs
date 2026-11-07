@@ -1,0 +1,26 @@
+# Dependensi Node.js
+node_modules/
+
+# Output build
+dist/
+out/
+
+# File environment
+.env
+.env.local
+
+# Log
+*.log
+npm-debug.log*
+
+# Cache sistem
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# electron-builder cache
+.electron-builder-cache/
