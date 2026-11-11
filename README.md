@@ -6,7 +6,7 @@ Aplikasi desktop Windows untuk Portal Karyawan NNCCS, dibangun dengan [Electron]
 
 ## Fitur Utama
 
-- Membuka portal karyawan: https://portalkaryawan16.zite.so/
+- Membuka portal karyawan
 - Sesi login tersimpan (tidak hilang saat aplikasi ditutup)
 - Loading screen profesional
 - Halaman error/offline dengan tombol Coba Lagi
@@ -89,7 +89,7 @@ File `config.json` di repository GitHub ini mengontrol URL website yang dibuka a
 **Format:**
 ```json
 {
-  "url": "https://portalkaryawan16.zite.so/"
+  "url": -
 }
 ```
 
@@ -125,9 +125,9 @@ Semua nilai yang mungkin perlu diubah terpusat di `config.js`:
 
 | Key | Nilai Default | Keterangan |
 |-----|---------------|------------|
-| `fallbackUrl` | `https://portalkaryawan16.zite.so/` | URL cadangan jika GitHub tidak dapat diakses |
+| `fallbackUrl` | -` | URL cadangan jika GitHub tidak dapat diakses |
 | `remoteConfigUrl` | URL raw GitHub | Lokasi `config.json` di GitHub |
-| `allowedDomains` | `['portalkaryawan16.zite.so', 'zite.so']` | Domain yang diizinkan untuk navigasi |
+| `allowedDomains` | `['-']` | Domain yang diizinkan untuk navigasi |
 | `windowWidth` | `1280` | Lebar jendela awal |
 | `windowHeight` | `800` | Tinggi jendela awal |
 
